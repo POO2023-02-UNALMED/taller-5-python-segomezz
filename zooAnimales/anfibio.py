@@ -1,5 +1,5 @@
 from .animal import Animal
-class anfibio:
+class Anfibio:
     ranas=0
     salamandras=0
     def __init__(self, nombre = "", edad = 0, habitat = "", genero = "", colorPiel = "", venenoso = False):

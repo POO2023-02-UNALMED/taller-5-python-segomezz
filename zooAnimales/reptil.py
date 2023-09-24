@@ -4,7 +4,7 @@ class Reptil:
     iguanas=0
     _listado=[]
     def __init__(self,nombre,edad,habitat,genero,colorEscamas=None,largoCola=None):
-        super()__init__(nombre,edad,habitat,genero)
+        super().__init__(nombre,edad,habitat,genero)
         self._colorEscamas=colorEscamas
         self._listado.append(self)
         

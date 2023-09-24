@@ -1,4 +1,4 @@
-import Zoologico 
+from gestion import zoologico 
 class Zona:
     def __init__(self,nombre,zoo=None):
         self._nombre=nombre

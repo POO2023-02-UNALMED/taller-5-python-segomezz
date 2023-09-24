@@ -1,10 +1,10 @@
 from .animal import Animal
-class pez:
+class Pez:
     salmones=0
     bacalaos=0
     _listado=[]
     def __init__(self,nombre,edad,habitat,genero,colorEscamas=None,cantidadAletas=None):
-        super()__init__(nombre,edad,habitat,genero)
+        super().__init__(nombre,edad,habitat,genero)
         self._colorEscamas=colorEscamas
 
         self._listado.append(self)
@@ -46,5 +46,5 @@ class pez:
         habitat = "oceano"
         Pez(nombre, edad, habitat, genero, colorEscamas, cantidadAletas)
         Pez.bacalaos += 1
-     def movimiento(self):
+    def movimiento(self):
         return "nadar"

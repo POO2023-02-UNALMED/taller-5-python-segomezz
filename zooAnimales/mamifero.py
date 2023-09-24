@@ -4,7 +4,7 @@ class Mamifero:
     leones=0
     _listado=[]
     def __init__(self,nombre,edad,habitat,genero,pelaje=False,patas=0):
-        super()__init__(nombre,edad,habitat,genero)
+        super().__init__(nombre,edad,habitat,genero)
         self._pelaje=pelaje
         self._patas=patas
         self._listado.append(self)
@@ -33,7 +33,7 @@ class Mamifero:
     @classmethod
     def cantidadMamiferos(cls):
         return len(cls._listado)
-     @classmethod
+    @classmethod
     def crearLeon(cls, nombre = "", edad = 0, genero = ""):
         leon = Mamifero(nombre, edad, "selva", genero, True, 4)
         cls.leones += 1

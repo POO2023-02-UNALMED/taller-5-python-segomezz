@@ -6,7 +6,7 @@ class Animal:
         self._habitat=habitat
         self._genero=genero
         self._zona=None
-     def getNombre(self):
+    def getNombre(self):
         return self._nombre
             
     def setNombre(self, nombre):
@@ -37,7 +37,7 @@ class Animal:
         self._zona = zona
     def movimiento(self):
         return "desplazarse"
-     @classmethod
+    @classmethod
     def totalPorTipo(cls):
             return "Mamiferos : "+str(cls.Mamiferos)+"\n" + "Aves : "+str(cls.Aves)+"\n" + "Reptiles : "+str(cls.Reptiles)+"\n" + "Peces : "+str(cls.Peces)+"\n" + "Anfibios : "+str(cls.Anfibios)
 
