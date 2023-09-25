@@ -1,5 +1,10 @@
 class Animal:
     _totalAnimales=0
+    Mamiferos = 0
+    Aves = 0
+    Reptiles = 0
+    Peces = 0
+    Anfibios = 0
     def __init__(self,nombre,edad,habitat,genero):
         self._nombre=nombre
         self._edad=edad
