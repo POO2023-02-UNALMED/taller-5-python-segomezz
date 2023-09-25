@@ -45,7 +45,7 @@ class Animal:
         return "desplazarse"
     @classmethod
     def totalPorTipo(cls):
-            return "Mamiferos : "+str(cls.Mamiferos)+"\n" + "Aves : "+str(cls.Aves)+"\n" + "Reptiles : "+str(cls.Reptiles)+"\n" + "Peces : "+str(cls.Peces)+"\n" + "Anfibios : "+str(cls.Anfibios)
+        return "Mamiferos : "+str(cls.Mamiferos)+"\n" + "Aves : "+str(cls.Aves)+"\n" + "Reptiles : "+str(cls.Reptiles)+"\n" + "Peces : "+str(cls.Peces)+"\n" + "Anfibios : "+str(cls.Anfibios)
 
 
     def toString(self):
@@ -57,3 +57,4 @@ class Animal:
     @classmethod
     def getTotalAnimales(cls):
         return cls._totalAnimales
+    
