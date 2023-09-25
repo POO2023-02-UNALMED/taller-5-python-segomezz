@@ -7,6 +7,7 @@ class Mamifero(Animal):
         super().__init__(nombre,edad,habitat,genero)
         self._pelaje=pelaje
         self._patas=patas
+        Animal.Mamiferos += 1
         self._listado.append(self)
     def isPelaje(self):
         return self._pelaje

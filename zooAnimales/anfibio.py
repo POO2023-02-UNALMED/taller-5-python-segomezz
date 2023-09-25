@@ -8,6 +8,7 @@ class Anfibio(Animal):
         self._colorPiel = colorPiel
         self._venenoso = venenoso
         Anfibio._listado.append(self)
+        Animal.Anfibios += 1
 
     @classmethod
     def cantidadAnfibios(cls):

@@ -7,7 +7,8 @@ class Ave(Animal):
         super().__init__(nombre,edad,habitat,genero)
         self._colorPlumas=colorPlumas
         self._listado.append(self)
-        
+        Animal.Aves += 1
+
     def getColorPlumas(self):
         return self._colorPlumas
     

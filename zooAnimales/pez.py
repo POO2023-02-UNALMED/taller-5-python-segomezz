@@ -7,7 +7,7 @@ class Pez(Animal):
         super().__init__(nombre,edad,habitat,genero)
         self._colorEscamas=colorEscamas
         self._cantidadAletas=cantidadAletas
-
+        Animal.Peces += 1
         self._listado.append(self)
         
     def getColorEscamas(self):
