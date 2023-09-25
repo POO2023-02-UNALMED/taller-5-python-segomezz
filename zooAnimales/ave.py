@@ -3,7 +3,7 @@ class Ave:
     halcones=0
     aguilas=0
     _listado=[]
-    def __init__(self,nombre,edad,habitat,genero,colorPlumas):
+    def __init__(self,nombre,edad,habitat,genero,colorPlumas=None):
         super().__init__(nombre,edad,habitat,genero)
         self._colorPlumas=colorPlumas
         self._listado.append(self)

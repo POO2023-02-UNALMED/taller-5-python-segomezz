@@ -6,6 +6,7 @@ class Animal:
         self._habitat=habitat
         self._genero=genero
         self._zona=None
+        Animal._totalAnimales += 1
     def getNombre(self):
         return self._nombre
             

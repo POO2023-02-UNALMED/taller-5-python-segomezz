@@ -6,6 +6,7 @@ class Pez:
     def __init__(self,nombre,edad,habitat,genero,colorEscamas=None,cantidadAletas=None):
         super().__init__(nombre,edad,habitat,genero)
         self._colorEscamas=colorEscamas
+        self._cantidadAletas=cantidadAletas
 
         self._listado.append(self)
         
