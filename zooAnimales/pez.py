@@ -1,5 +1,5 @@
 from .animal import Animal
-class Pez:
+class Pez(Animal):
     salmones=0
     bacalaos=0
     _listado=[]

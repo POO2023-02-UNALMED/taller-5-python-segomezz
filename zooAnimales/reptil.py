@@ -1,5 +1,5 @@
 from .animal import Animal
-class Reptil:
+class Reptil(Animal):
     serpientes=0
     iguanas=0
     _listado=[]
