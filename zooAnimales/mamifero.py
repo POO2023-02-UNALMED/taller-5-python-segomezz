@@ -1,6 +1,6 @@
 from .animal import Animal
 class Mamifero(Animal):
-    caballo=0
+    caballos=0
     leones=0
     _listado=[]
     def __init__(self,nombre,edad,habitat,genero,pelaje=False,patas=0):
